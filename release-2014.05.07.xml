@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="yocto-poky"
+		fetch="git://git.yoctoproject.org" />
+	<remote name="github-dmo"
+		fetch="git://github.com/data-modul" />
+	<remote name="git-openembedded"
+		fetch="git://git.openembedded.org" />
+	<remote name="github-ossystems"
+		fetch="git://github.com/OSSystems" />
+
+	<default revision="master"
+		 sync-j="8" />
+
+	<project name="poky"
+		 remote="yocto-poky"
+		 revision="faf8f8660fae26a14578738b642fdeb08bcb9d54" />
+	<project name="meta-dmo"
+		 path="poky/meta-dmo"
+		 remote="github-dmo"
+		 revision="07691a50ecc6cea21f5cb43ad67d7485b6064569" />
+	<project name="meta-fsl-arm"
+		 path="poky/meta-fsl-arm"
+		 remote="github-dmo"
+		 revision="87601e5fc93b422347b22fe6d41f38f18f6ee9ec" />
+	<project name="meta-openembedded"
+		 path="poky/meta-openembedded"
+		 remote="git-openembedded"
+		 revision="191499a2b54d04855284347ce5a067f998646be4" />
+	<project name="meta-browser"
+		 path="poky/meta-browser"
+		 remote="github-ossystems"
+		 revision="9d0d4b79acdd3028cd61fc46095dc837e1fa996c" />
+</manifest>
