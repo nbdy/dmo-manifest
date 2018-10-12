@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="yocto-poky"
+		fetch="git://git.yoctoproject.org" />
+	<remote name="github-data-modul"
+		fetch="git://github.com/data-modul" />	
+	<remote name="git-openembedded"
+		fetch="git://git.openembedded.org" />
+	<remote name="github-ossystems"
+		fetch="git://github.com/OSSystems" />
+	<remote name="yocto-intel"
+		fetch="git://git.yoctoproject.org" />
+	<remote name="github-qt5"
+		fetch="git://github.com/meta-qt5" />
+
+	<default revision="master"
+		 sync-j="8" />
+
+	<project name="poky"
+		 remote="yocto-poky"
+		 revision="924e576b8930fd2268d85f0b151e5f68a3c2afce" />
+	<project name="meta-dmo"
+		 path="poky/meta-dmo"
+		 remote="github-data-modul"
+		 revision="9c1641789c5cefb42d18ee43d3e15e1529e5f1b5" />
+	<project name="meta-fsl-arm"
+		 path="poky/meta-fsl-arm"
+		 remote="github-data-modul"
+		 revision="fa774ad7fb797957601a8c9fee45af453fea34b7" />
+	<project name="meta-intel"
+		 path="poky/meta-intel"
+		 remote="yocto-intel"
+		 revision="6add41510412ca196efb3e4f949d403a8b6f35d7" />
+	<project name="meta-openembedded"
+		 path="poky/meta-openembedded"
+		 remote="git-openembedded"
+		 revision="fe5c83312de11e80b85680ef237f8acb04b4b26e" />
+	<project name="meta-browser"
+		 path="poky/meta-browser"
+		 remote="github-ossystems"
+		 revision="7d37ae2adec5cc5ea27367ce125bc7bce2310ca1" />
+	<project name="meta-qt5"
+		 path="poky/meta-qt5"
+		 remote="github-qt5"
+		 revision="3601fd2c5306ac6d5d0d536e0be8cbb90da9b4c1" />
+</manifest>
