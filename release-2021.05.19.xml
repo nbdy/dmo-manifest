@@ -22,7 +22,7 @@
 	<project name="meta-dmo"
 		 path="poky/meta-dmo"
 		 remote="github-data-modul"
-		 revision="ccbc0396d3d7f0d9e99d65c16517d28973536d6b" />
+		 revision="9def66292de38fdf7907c97dbca5d72b0b926bff" />
 	<project name="meta-freescale"
 		 path="poky/meta-freescale"
 		 remote="github-data-modul"
