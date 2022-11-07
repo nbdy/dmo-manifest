@@ -18,10 +18,12 @@
 		 revision="f4372765f3fdae26a8e666548fba3e55f5b837c0" />
 	<project name="meta-dmo"
 		 path="poky/meta-dmo"
-		 remote="github-data-modul" />
+		 remote="github-data-modul"
+		 revision="a9c3ccb7e22267a7aad2cfe919ad0e8a0e5356a7"/>
 	<project name="meta-freescale"
 		 path="poky/meta-freescale"
-		 remote="github-data-modul" />
+		 remote="github-data-modul"
+		 revision="d3297da4272a1d2dcb0ef762381b1e6425ee9266"/>
 	<project name="meta-intel"
 		 path="poky/meta-intel"
 		 remote="yocto-intel"
