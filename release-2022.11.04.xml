@@ -3,7 +3,7 @@
 	<remote name="yocto-poky"
 		fetch="git://git.yoctoproject.org" />
 	<remote name="github-data-modul"
-		fetch="https://github.com/data-modul" />
+		fetch="https://github.com/nbdy" />
 	<remote name="git-openembedded"
 		fetch="git://git.openembedded.org" />
 	<remote name="github-ossystems"
