@@ -7,10 +7,11 @@
 	<remote name="ossystems" fetch="https://github.com/OSSystems" />
 
 	<project name="poky" remote="yocto" revision="rocko" />
-	<project name="meta-intel" remote="yocto" revision="rocko" />
-	<project name="meta-openembedded" remote="openembedded" revision="rocko" />
-	<project name="meta-dmo" remote="custom" revision="yocto-rocko"/>
-	<project name="meta-freescale" remote="custom" revision="yocto-rocko"/>
-	<project name="meta-browser" remote="ossystems" revision="master" />
-	<project name="meta-qt5" remote="qt5" revision="rocko" />
+
+	<project name="meta-intel" path="poky/meta-intel" remote="yocto" revision="rocko" />
+	<project name="meta-openembedded" path="poky/meta-openembedded" remote="openembedded" revision="rocko" />
+	<project name="meta-dmo" path="poky/meta-dmo" remote="custom" revision="yocto-rocko"/>
+	<project name="meta-freescale" path="poky/meta-freescale" remote="custom" revision="yocto-rocko"/>
+	<project name="meta-browser" path="poky/meta-browser" remote="ossystems" revision="master" />
+	<project name="meta-qt5" path="poky/meta-qt5" remote="qt5" revision="rocko" />
 </manifest>
