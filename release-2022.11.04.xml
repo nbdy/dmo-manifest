@@ -1,43 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="yocto-poky"
-		fetch="git://git.yoctoproject.org" />
-	<remote name="github-data-modul"
-		fetch="https://github.com/nbdy" />
-	<remote name="git-openembedded"
-		fetch="git://git.openembedded.org" />
-	<remote name="github-ossystems"
-		fetch="https://github.com/OSSystems" />
-	<remote name="yocto-intel"
-		fetch="git://git.yoctoproject.org" />
-	<remote name="github-qt5"
-		fetch="https://github.com/meta-qt5" />
+	<remote name="yocto" fetch="git://git.yoctoproject.org" />
+	<remote name="openembedded" fetch="git://git.openembedded.org" />
 
-	<project name="poky"
-		 remote="yocto-poky"
-		 revision="rocko" />
-	<project name="meta-dmo"
-		 path="poky/meta-dmo"
-		 remote="github-data-modul"
-		 revision="a9c3ccb7e22267a7aad2cfe919ad0e8a0e5356a7"/>
-	<project name="meta-freescale"
-		 path="poky/meta-freescale"
-		 remote="github-data-modul"
-		 revision="d3297da4272a1d2dcb0ef762381b1e6425ee9266"/>
-	<project name="meta-intel"
-		 path="poky/meta-intel"
-		 remote="yocto-intel"
-		 revision="rocko" />
-	<project name="meta-openembedded"
-		 path="poky/meta-openembedded"
-		 remote="git-openembedded"
-		 revision="rocko" />
-	<project name="meta-browser"
-		 path="poky/meta-browser"
-		 remote="github-ossystems"
-		 revision="26d50665e2f7223c5f4ad7481a8d2431e7cb55fb" />
-	<project name="meta-qt5"
-		 path="poky/meta-qt5"
-		 remote="github-qt5"
-		 revision="682ad61c071a9710e9f9d8a32ab1b5f3c14953d1" />
+	<remote name="custom" fetch="https://github.com/nbdy" />
+
+	<remote name="qt5" fetch="https://github.com/meta-qt5" />
+	<remote name="freescale" fetch="https://github.com/Freescale"/>
+
+	<remote name="ossystems" fetch="https://github.com/OSSystems" />
+
+	<project name="poky" remote="yocto" revision="rocko" />
+	<project name="meta-openembedded" path="poky/meta-openembedded" remote="openembedded" revision="rocko" />
+	<project name="meta-intel" path="poky/meta-intel" remote="yocto-intel" revision="rocko" />
+
+	<project name="meta-dmo" path="poky/meta-dmo" remote="custom" revision="a9c3ccb7e22267a7aad2cfe919ad0e8a0e5356a7"/>
+	<project name="meta-freescale" path="poky/meta-freescale" remote="custom" revision="rocko"/>
+
+	<project name="meta-browser" path="poky/meta-browser" remote="ossystems" revision="26d50665e2f7223c5f4ad7481a8d2431e7cb55fb" />
+	<project name="meta-qt5" path="poky/meta-qt5" remote="qt5" revision="682ad61c071a9710e9f9d8a32ab1b5f3c14953d1" />
 </manifest>
