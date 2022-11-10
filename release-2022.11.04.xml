@@ -6,7 +6,7 @@
 	<remote name="custom" fetch="https://github.com/nbdy" />
 
 	<remote name="qt5" fetch="https://github.com/meta-qt5" />
-	<remote name="freescale" fetch="https://github.com/nbdy"/>
+	<remote name="freescale" fetch="https://github.com/Freescale"/>
 
 	<remote name="ossystems" fetch="https://github.com/OSSystems" />
 
