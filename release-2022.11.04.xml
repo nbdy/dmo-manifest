@@ -15,7 +15,7 @@
 
 	<project name="poky"
 		 remote="yocto-poky"
-		 revision="f4372765f3fdae26a8e666548fba3e55f5b837c0" />
+		 revision="rocko" />
 	<project name="meta-dmo"
 		 path="poky/meta-dmo"
 		 remote="github-data-modul"
