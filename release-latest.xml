@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="yocto-poky"
+		fetch="git://git.yoctoproject.org" />
+	<remote name="github-data-modul"
+		fetch="https://github.com/nbdy" />
+	<remote name="git-openembedded"
+		fetch="git://git.openembedded.org" />
+	<remote name="github-ossystems"
+		fetch="https://github.com/OSSystems" />
+	<remote name="yocto-intel"
+		fetch="git://git.yoctoproject.org" />
+	<remote name="github-qt5"
+		fetch="https://github.com/meta-qt5" />
+
+	<project name="poky"
+		 remote="yocto-poky"
+		 revision="rocko" />
+	<project name="meta-dmo"
+		 path="poky/meta-dmo"
+		 remote="github-data-modul"
+		 revision="yocto-rocko"/>
+	<project name="meta-freescale"
+		 path="poky/meta-freescale"
+		 remote="github-data-modul"
+		 revision="yocto-rocko"/>
+	<project name="meta-intel"
+		 path="poky/meta-intel"
+		 remote="yocto-intel"
+		 revision="rocko" />
+	<project name="meta-openembedded"
+		 path="poky/meta-openembedded"
+		 remote="git-openembedded"
+		 revision="rocko" />
+	<project name="meta-browser"
+		 path="poky/meta-browser"
+		 remote="github-ossystems"
+		 revision="morty" />
+	<project name="meta-qt5"
+		 path="poky/meta-qt5"
+		 remote="github-qt5"
+		 revision="rocko" />
+</manifest>
