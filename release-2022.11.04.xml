@@ -12,6 +12,6 @@
 	<project name="meta-openembedded" path="poky/meta-openembedded" remote="openembedded" revision="rocko" />
 	<project name="meta-dmo" path="poky/meta-dmo" remote="custom" revision="yocto-rocko"/>
 	<project name="meta-freescale" path="poky/meta-freescale" remote="custom" revision="yocto-rocko"/>
-	<project name="meta-browser" path="poky/meta-browser" remote="ossystems" revision="master" />
+	<project name="meta-browser" path="poky/meta-browser" remote="ossystems" revision="26d50665e2f7223c5f4ad7481a8d2431e7cb55fb" />
 	<project name="meta-qt5" path="poky/meta-qt5" remote="qt5" revision="rocko" />
 </manifest>
