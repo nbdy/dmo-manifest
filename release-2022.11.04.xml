@@ -27,11 +27,11 @@
 	<project name="meta-intel"
 		 path="poky/meta-intel"
 		 remote="yocto-intel"
-		 revision="36a751a86c71aeb834632401f09c164e9a7f1af6" />
+		 revision="rocko" />
 	<project name="meta-openembedded"
 		 path="poky/meta-openembedded"
 		 remote="git-openembedded"
-		 revision="352531015014d1957d6444d114f4451e241c4d23" />
+		 revision="rocko" />
 	<project name="meta-browser"
 		 path="poky/meta-browser"
 		 remote="github-ossystems"
